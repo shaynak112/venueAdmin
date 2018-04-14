@@ -30,6 +30,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href='HREmployeeList.php'><i class='fa fa-circle-o'></i>Employee Information</a></li>
+              <li><a href='HRJobPositions.php'><i class='fa fa-circle-o'></i>List of Jobs</a></li>
               <li><a href='HRJobPostings.php'><i class='fa fa-circle-o'></i>Job Postings</a></li>
               <li><a href='HRAddJob.php'><i class='fa fa-circle-o'></i>Add A Job</a></li>
             <li><a href="eventsAll.php"><i class="fa fa-circle-o"></i>Job Applications</a></li>

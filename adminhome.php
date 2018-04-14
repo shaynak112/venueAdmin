@@ -90,20 +90,21 @@ include 'adminNav.php';
       <div class="row">
         <!-- Left col -->
         <section class="col-lg-7 connectedSortable">
-        <div class="box box-solid bg-black" style='font-color:white;vertical-align:top;display:inline-block;padding:3px;'>
+        <div class="box box-solid bg-black" style='font-color:white;vertical-align:top;display:inline-block;padding:5px;'>
          
 
-        <h2 style='margin-bottom:0px;margin-left:30%;'>Unsure</h2>
+        <h2 style='margin-bottom:0px;margin-left:30%;'>Pages That Work!</h2>
             
+            <p>A lot of the pages in the nav menu are in progress. The ones listed here are at least started!</p>
 
-              <h3>A few ideas</h3>
+              <h3>Pages started</h3>
 
               <ul>
-                <li>Forum for admins</li>
-                <li>financial summary for current year</li>
-                <li>upcoming bookings</li>
-                <li>incoming messages</li>
-                <li>jobs applications</li>
+                <li>HR - Employee Information</li>
+                <li>HR - Job Postings</li>
+                <li>HR - Add A Job</li>
+                <li>HR - List Job Positions</li>
+                <li>Bookings - View Bookings</li>
 
               </ul>
 
