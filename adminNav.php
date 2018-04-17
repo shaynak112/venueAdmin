@@ -118,7 +118,7 @@
             <li><a href='financeUpdate.php'><i class='fa fa-circle-o'></i>Daily</a></li>
             <li><a href='financeUpdate.php'><i class='fa fa-circle-o'></i>Monthly</a></li>
             <li><a href='financeUpdate.php'><i class='fa fa-circle-o'></i>Yearly</a></li>
-            <li><a href='financeUpdate.php'><i class='fa fa-circle-o'></i>Adjust Financials</a></li>
+            <li><a href='finPayments.php'><i class='fa fa-circle-o'></i>Payments</a></li>
           </ul>
         </li>
 

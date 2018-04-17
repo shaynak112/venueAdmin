@@ -105,6 +105,7 @@ include 'adminNav.php';
                 <li>HR - Add A Job</li>
                 <li>HR - List Job Positions</li>
                 <li>Bookings - View Bookings</li>
+                <li>Financials - Payments</li>
 
               </ul>
 
