@@ -6,6 +6,7 @@ include 'header.php';
 include 'css/bookingCalendarStyle.php';
 include 'head.php';
 include 'adminNav.php';
+include 'dbConnect.php';
 ?>
 
 

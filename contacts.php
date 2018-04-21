@@ -16,11 +16,11 @@ include 'dbConnect.php';
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Employees
+        Contacts
       </h1>
       <ol class="breadcrumb">
         <li><a href="adminhome.php"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Employees</li>
+        <li class="active">Contacts</li>
       </ol>
     </section>
 
@@ -33,20 +33,22 @@ include 'dbConnect.php';
           <div class="small-box bg-purple" style='font-color:black;'>
             <div class="inner">
               
-              <h4 style='padding-bottom:15px;'><strong>Employees</strong></h4>
+              <h4 style='padding-bottom:15px;'><strong>Contacts</strong></h4>
 
               <?php
 
     $dbconn = new Dbconnect;
     $db = $dbconn->getDb();
-    $query = "SELECT * FROM employees WHERE active='yes' ORDER BY position, employeeID ASC";
+    $query = "SELECT * FROM memberlogin_members WHERE company_name IS NOT NULL AND status='T' ORDER BY company_name, last_name, first_name ASC";
     $statement = $db->prepare($query);
     $statement->execute();
-    $allEmployees = $statement->fetchAll(PDO::FETCH_OBJ);
+    $allContacts = $statement->fetchAll(PDO::FETCH_OBJ);
 
-    foreach($allEmployees as $g)
+    foreach($allContacts as $g)
     {
-      echo $g->firstName . " " . $g->lastName . ", " . $g->position . "<br/>";
+      echo $g->first_name . " " . $g->last_name . ", " . $g->company_name . "<br/>";
+      echo $g->email . "    " . $g->phone . "<br/>";
+      echo $g->address . ", " . $g->city . ", " . $g->state . "  " . $g->zip . "<br/><br/>";
     }
 
 

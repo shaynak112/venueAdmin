@@ -36,6 +36,9 @@ include 'adminNav.php';
 
                 <div>
 
+                  <p><a href='http://www.gaia-toronto.com/admin/public/index.php'>Public Site</a> - still in progress.</p>
+                  <p><a href='http://www.gaia-toronto.com/admin/employees/emphome.php'>Employee Side</a> - very much in progress</p>
+
                 
                 <p>List of upcoming events</p>
                 <p>Yoga class</p>
@@ -100,12 +103,13 @@ include 'adminNav.php';
               <h3>Pages started</h3>
 
               <ul>
-                <li>HR - Employee Information</li>
+                <li>HR - <a href='http://www.gaia-toronto.com/admin/HREmployeeList.php'>Employee Information</a></li>
                 <li>HR - Job Postings</li>
-                <li>HR - Add A Job</li>
+                <li>HR - <a href='http://www.gaia-toronto.com/admin/HRAddJob.php'>Add A Job</a></li>
                 <li>HR - List Job Positions</li>
-                <li>Bookings - View Bookings</li>
-                <li>Financials - Payments</li>
+                <li>Bookings - <a href='http://www.gaia-toronto.com/admin/viewBookings.php'>View Bookings (not the best)</a></li>
+                <li>Financials - <a href='http://www.gaia-toronto.com/admin/finPayments.php'>Payments</a></li>
+                <li>Other - <a href='http://www.gaia-toronto.com/admin/contacts.php'>Contacts</a></li>
 
               </ul>
 

@@ -131,12 +131,12 @@
             </span>
           </a>
           <ul class='treeview-menu'>
-            <li><a href='financeSummary.php'><i class='fa fa-mobile-phone'></i>Contacts</a></li>
+            <li><a href='contacts.php'><i class='fa fa-mobile-phone'></i>Contacts</a></li>
             <li><a href='financeNew.php'><i class='fa fa-newspaper-o'></i>Newsletter</a></li>
             <li><a href='financeUpdate.php'><i class='fa fa-circle-o'></i>Social Media Analysis</a></li>
             <li><a href='financeUpdate.php'><i class='fa fa-users'></i>Partners</a></li>
             <li><a href='financeUpdate.php'><i class='fa fa-circle-o'></i>Public Website</a></li>
-            <li><a href='http://webmail.gaia-toronto.com/'><i class='fa fa-envelope'></i>Email</a></li>
+            <li><a href='http://webmail.gaia-toronto.com/' TARGET='_BLANK'><i class='fa fa-envelope'></i>Email</a></li>
           </ul>
         </li>           
 

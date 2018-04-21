@@ -5,7 +5,7 @@
 include 'header.php';
 include 'head.php';
 include 'adminNav.php';
-//include 'dbConnect.php';
+include 'dbConnect.php';
 ?>
 
 
